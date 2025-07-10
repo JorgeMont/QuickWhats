@@ -1,0 +1,36 @@
+body{
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
+    .card{
+        margin: 2rem auto;
+        padding: 1rem 0;
+        // width: 70%;
+        background-color: #FAF9F6;
+        border-radius: 10px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+        input{
+            width: 20rem;
+            padding: 0.3rem 0;
+            margin-bottom: 2rem;
+        }
+
+        button{
+            padding: 1rem;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+  // CSS rules for small screens go here
+  .card {
+    max-width: 90%;
+
+    input{
+            margin-bottom: 2rem;
+        }
+  }
+}

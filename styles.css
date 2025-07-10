@@ -1,0 +1,30 @@
+body {
+  background: #EEAECA;
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+}
+body .card {
+  margin: 2rem auto;
+  padding: 1rem 0;
+  background-color: #FAF9F6;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+body .card input {
+  width: 20rem;
+  padding: 0.3rem 0;
+  margin-bottom: 2rem;
+}
+body .card button {
+  padding: 1rem;
+}
+
+@media (max-width: 400px) {
+  .card {
+    max-width: 90%;
+  }
+  .card input {
+    margin-bottom: 2rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
